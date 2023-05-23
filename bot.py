@@ -11,5 +11,5 @@ def echo_message(message):
     bot.reply_to(message, message.text)
 
 
-print("Bot is running...")
+st.success("Bot is running...")
 bot.polling()
